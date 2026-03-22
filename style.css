@@ -1,0 +1,106 @@
+body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    /* Navbar */
+    .navbar {
+      background: #2a9d8f;
+      color: white;
+      padding: 15px;
+      overflow: hidden;
+    }
+    .navbar .logo {
+      display: inline-block;
+      font-size: 1.5em;
+      font-weight: bold;
+      margin-right: 30px;
+    }
+    .navbar ul {
+      display: inline-block;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .navbar ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+    .navbar ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .navbar .username {
+      float: right;
+      font-size: 1em;
+    }
+
+    /* Hero Section with Grid */
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      height: 100vh; /* Full viewport height */
+      background: #f1faee;
+    }
+    .hero .left {
+      padding: 60px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .hero .left h1 {
+      font-size: 3em;
+      color: #2a9d8f;
+      margin-bottom: 20px;
+    }
+    .hero .left p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+      color: #333;
+    }
+   .btn {
+    width: fit-content;
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #3498db;
+      color: white;
+      font-size: 18px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+  
+    }
+
+    .btn:hover {
+      transform: scale(1.1); /* thoda bada ho jayega */
+      background-color: #2980b9;
+       transition:transform 1.3s ease;
+          transform: rotate(-10deg) scale(1.5) ;
+
+      
+    }
+
+    /* Click (active) par tilt */
+    .btn:active {
+      transform: rotate(-5deg) scale(0.95);
+      background-color: #1f6391;
+
+    }
+    .hero .right {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .hero .right img {
+      max-width: 75%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    img{
+        width: 10%s;
+        height: 3vw;
+        border-radius: 50%;
+    }
+    
